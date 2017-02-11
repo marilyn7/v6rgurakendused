@@ -1,6 +1,3 @@
-<?php
-echo . phpversion();
-?>
 <!DOCTYPE html>
 
 
@@ -22,15 +19,26 @@ echo . phpversion();
 <img src="/~mvosu/2.jpg"	
 				alt="Profiilikas" height="200">
 	
-		<?php
-			echo "So cool";
-		?>
+		<?php echo "So cool, see tuli PHP'st"; ?>
 <div> LALALA </div>
 <button type="button"
 onclick="document.getElementById('demo').innerHTML = Date()">
 Kliki mind!!!</button>
 
 <p id="demo"></p>
+
+<?php 
+    $host = "localhost";
+    $user = "test";
+    $pass = "t3st3r123";
+    $db = "test";
+
+    $l = mysqli_connect($host, $user, $pass, $db);
+    mysqli_query($l, "SET CHARACTER SET UTF8") or
+            die("Error, ei saa andmebaasi charsetti seatud");
+    ...
+    mysqli_close($l);
+?>
 </body>
 	
 </html>
