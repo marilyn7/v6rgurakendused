@@ -6,12 +6,12 @@
 </head>
 <body>
 <table>
-<caption>Bändid</caption>
+<caption>BÃ¤ndid</caption>
 <tr><th>Nimi</th><th>Asutamisaasta</th></tr>
 <tr><td>Metallica</td><td>1981</td></tr>
 <tr><td>Rammstein</td><td>1994</td></tr>
 <tr><td>Depeche Mode</td><td>1980</td></tr>
-<tr><td>Avenged Sevenfold</td><td></td></tr>
+<tr><td>Avenged Sevenfold</td><td>1999</td></tr>
 </table>
 <br><br>
 <table border="1">
