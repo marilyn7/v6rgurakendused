@@ -8,7 +8,7 @@
 <head>
 	<meta charset="UTF-8">
 	
-<link rel="stylesheet" type="text/css" href="styles.css">
+<link rel="stylesheet" type="text/css" href="css/styles.css">
 <title>Cool so cool</title>
 	</head>
 	
@@ -28,16 +28,7 @@ Kliki mind!!!</button>
 <p id="demo"></p>
 
 <?php 
-    $host = "localhost";
-    $user = "test";
-    $pass = "t3st3r123";
-    $db = "test";
-
-    $l = mysqli_connect($host, $user, $pass, $db);
-    mysqli_query($l, "SET CHARACTER SET UTF8") or
-            die("Error, ei saa andmebaasi charsetti seatud");
-    ...
-    mysqli_close($l);
+   include "php/tabel.php";
 ?>
 </body>
 	
