@@ -1,0 +1,290 @@
+body {
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	min-width:1550px;
+	*background-image:url(cat.jpg);
+	background-color: #ffa500;
+}
+* {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+hr {
+	display:none;
+	visibility:hidden;
+	height: 1px;
+	width: 1px;
+}
+h2 {
+	font-size: 25px;
+	text-align: right;
+	font-weight: thin;
+	color: #666666;
+	font-variant: small-caps;
+	margin: 0px 0px 0px 0px
+}
+h3 {
+	font-size: 11px;
+	margin: 0;
+	padding: 0px 5px 5px 15px;
+	color: #ffffff;
+	font-weight:normal;
+}
+
+.foorum_peateema_kirjeldus {
+	font-size: 12px;
+	color: #666666;
+	text-align: left;
+	margin: 10px 0px 10px 20px
+}
+blockquote {
+	font-size: 11px;
+	margin: 3px 0px 3px 10px;
+	padding: 4px 4px 4px 8px;
+	border-left: 2px solid #FFE21C;
+	font-style: italic;
+}
+.foorum_alamteemad {
+	font-size: 12px;
+	color: #666666;
+}
+a.foorumi_pealkiri, a.foorumi_pealkiri:active, a.foorumi_pealkiri:visited, a.foorumi_pealkiri:hover {
+	font-size: 22px;
+	font-weight:bold;
+	color: #ffffff;
+	margin: 0px 0px 0px 0px
+}
+
+a.foorumi_peateema, a.foorumi_peateema:active, a.foorumi_peateema:visited, a.foorumi_peateema:hover {
+	font-size: 17px;
+	text-align: left;
+	color: #666666;
+	margin: 0px 0px 0px 0px
+	text-decoration:none;
+}
+
+a.galerii_peateema, a.galerii_peateema:active, a.galerii_peateema:visited, a.galerii_peateema:hover {
+	font-size: 12px;
+	font-weight:bold;
+	color: #666666;
+	text-decoration:none;
+}
+
+.foorumi_peateema {
+	font-size: 17px;
+	text-align: left;
+	color: #666666;
+	margin: 0px 0px 0px 0px
+	text-decoration:none;
+}
+
+.foorum_heeder {
+ 	font-size: 12px; 
+	font-weight:bold;
+	font-variant: normal;
+	text-decoration: none;
+	padding: 10px 0px px 0px;
+	color: #ffffff;
+}
+
+a.jaluses, a.jaluses:active, a.jaluses:visited, a.jaluses:hover {
+	color: #ffffff;
+	font-size: 11px;
+	text-decoration: none;
+}
+
+div, p, td, input, textarea, ol, li, ul {
+	font-size: 12px;
+}
+#logojaheader {
+	 background-image:url(heeder.gif);
+	 background-repeat:no-repeat;
+	 height: 140px;
+	 width:1550px;
+	 text-indent: -5000px;
+	 padding: 0;
+	 margin: 0;
+}
+#content {
+	width: 2500px;
+	margin:0;
+	padding:0px 0px 0px 0px;
+}
+#peamenyy {
+	position: absolute;
+	left: 225px;
+	top: 70px;
+}
+#peamenyy ul{
+	 margin: 0; 
+	 padding: 0;
+}
+#peamenyy li {
+	float: left;
+	list-style:none;
+	padding-right: 10px;
+}
+a.peamenyy, a.peamenyy:visited, a.peamenyy:active {
+	font-size: 16px; 
+	font-weight:bold;
+	font-variant:small-caps;
+	text-decoration: none;
+	padding: 0px 0px 6px 0px;
+	display: block;
+	color: #ffffff;
+}
+a.peamenyy:hover {
+	font-size: 16px; 
+	font-weight:bold;
+	font-variant:small-caps;
+	text-decoration: none;
+	padding: 0px 0px 6px 0px;
+	display: block;
+	color: #FF5300;
+
+}
+.aktiivne {
+	color: #FF5300;
+}
+#alamenyy {
+ 	float: left;
+	width: 179px;
+	height: 425px;
+	border-right:2px dashed #D1C4A9;
+}
+
+#loginkast {
+	margin: 0px 12px 0px 32px; 
+	padding: 0;
+
+}
+
+.uudiste_listi_pealkiri {
+ 	font-size: 12px; 
+	font-weight:bold;
+	font-variant: normal;
+	text-decoration: none;
+	padding: 0px 0px 6px 0px;
+	display: block;
+	color: #333333;
+}
+
+#alamenyy ol {
+	margin: 0px 12px 0px 32px; 
+	padding: 0;
+}
+#alamenyy li {
+	list-style:none;
+	border-bottom: 1px dashed #D1C4A9;
+	margin: 0px 0px 6px 0px;
+}
+a.alamenyy, a.alamenyy:visited, a.alamenyy:active {
+	font-size: 11px; 
+	font-weight:bold;
+	font-variant: normal;
+	text-decoration: none;
+	padding: 0px 0px 6px 0px;
+	display: block;
+	color: #333333;
+}
+a.alamenyy:hover {
+	font-size: 11px; 
+	font-weight:bold;
+	font-variant: normal;
+	text-decoration: none;
+	padding: 0px 0px 6px 0px;
+	display: block;
+	color: #FF5300;
+}
+.aktiivne {
+	color: #FF5300;
+}
+.jalusepilt {
+	width: 729px; 
+	background-image: url(p6hi.gif); 
+	height: 79px;
+}
+.sisuosa {
+	float: left;
+	width: 530px;
+}
+.sisuosapadding {
+	padding: 0px 10px 0px 10px;
+}
+.puhastustuli {
+	clear:both
+}
+.taustakast {
+	width: 1500px;
+	background-image:url(bakk_01.gif);
+	background-repeat:repeat-y;
+}
+.taustakastkaks {
+	margin: 0px 5px 0px 6px;
+	background-image:url(bakk_02.gif);
+	background-repeat:repeat-x;
+	background-color: #ffffff;
+}
+.mingipadding {
+	padding: 0px 0px 0px 27px;
+}
+a:active, a:visited {
+	display: inline;
+	font-weight: normal;
+	text-decoration:underline;
+	font-size: 12px;
+}
+a:hover {
+	display: inline;
+	font-weight: normal;
+	text-decoration:underline;
+	font-size: 12px;
+	color: orange;
+}
+.admin_menyy {
+ 	font-size: 12px;
+	color: orange;
+}
+.ta { 
+  font-family: "Trebuchet MS";
+  font-size: 12px;
+  color: #666666;
+  font-weight: normal;
+  }
+.pa {
+  font-family: "Trebuchet MS";
+  font-size: 12px;
+  font-weight: bold;
+  color: #666666;
+  }
+a {
+  font-family: "Trebuchet MS";
+  font-size: 12px;
+  color: #FF6600;
+  text-decoration: none;
+  }
+ .pk {
+   font-family: "Trebuchet MS";
+   color: #666666;
+   font-size: 16px;
+   font-weight: bold;
+   }
+ .rohelinenupp {
+	background-color: #009900;
+	font-weight: bold;
+	color: #FFFFFF;
+	border-top: 1px solid #00CC33;
+	border-right: 1px solid #006600;
+	border-bottom: 1px solid #006600;
+	border-left: 1px solid #00CC33;
+	margin-bottom: 2px;
+}
+.punanenupp {
+	background-color: #FF0000;
+	font-weight: bold;
+	color: #FFFFFF;
+	border-top: 1px solid #FF6666;
+	border-right: 1px solid #FF0066;
+	border-bottom: 1px solid #FF0066;
+	border-left: 1px solid #FF6666;
+	margin-bottom: 2px;
+}
