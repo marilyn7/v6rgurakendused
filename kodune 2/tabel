@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Tabelid</title>
+</head>
+<body>
+<table>
+<caption>Bändid</caption>
+<tr><th>Nimi</th><th>Asutamisaasta</th></tr>
+<tr><td>Metallica</td><td>1981</td></tr>
+<tr><td>Rammstein</td><td>1994</td></tr>
+<tr><td>Depeche Mode</td><td>1980</td></tr>
+<tr><td>Avenged Sevenfold</td><td>1999</td></tr>
+</table>
+<br><br>
+<table border="1">
+<tr><td colspan="3">&nbsp;&nbsp;&nbsp;&nbsp;</td><td rowspan="3">&nbsp;&nbsp;&nbsp;&nbsp;</td></tr>
+<tr><td rowspan="3">&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td></tr>
+<tr><td colspan="3"><p></p></td></tr>
+</table>
+</body>
+</html>
