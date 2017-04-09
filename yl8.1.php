@@ -18,7 +18,7 @@
     ?>
     <form action="yl8.1.php" method="POST">
         <table>
-            <tr><td>input text:</td><td><input type="text" name="tekst"></td></tr>
+            <tr><td>input tekst:</td><td><input type="text" name="tekst"></td></tr>
             <tr><td>taustavärv:</td><td><input type="color" name="varv"></td></tr>
             <tr><td>teksti värv:</td><td><input type="color" name="varv2"></td></tr>
         </table>
