@@ -47,7 +47,7 @@ if (isset($_POST['br']) )
 
     <hr/>
     <form method="POST" action="yl10_1.php">
-        <textarea name="text" placeholder="kommentaari tekst"><?php if(isset($_POST['text'])) echo htmlspecialchars($_POST['text']); ?></textarea>
+        <textarea name="text" placeholder="comment"><?php if(isset($_POST['text'])) echo htmlspecialchars($_POST['text']); ?></textarea>
         <br/>
         <input type="color" name="bg" id="bg" value="<?php if(isset($_POST['bg'])) echo htmlspecialchars($_POST['bg']); ?>"> 
         <label for="bg">Background</label>
@@ -73,7 +73,7 @@ if (isset($_POST['br']) )
             <label>Border corner radius (0-100px)</label>
             <br/>
         </fieldset>
-        <input type="submit" value="esita" />
+        <input type="submit" value="Submit" />
     </form>
 
 </body>
